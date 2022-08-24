@@ -10,4 +10,3 @@ def game(pl1,pl2):
         return('pl2 wins')
 x=game('paper','rock')
 print(x)
-
