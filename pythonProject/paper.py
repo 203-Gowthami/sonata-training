@@ -1,9 +1,8 @@
-pl1=int(input('Enter a name'))
-pl2=int(input('Enter a name'))
-while(pl1>pl2):
-    prinand pl2='scissor'):
-        print('pl2 is win')
-    elif(pl1='rock' and pl2='paper'):
-        print('pl1 is win')
-    else:
-        print('no result')
+pl1=input()
+pl2=input
+if(pl1==pl2):
+    print("no result")
+elif(pl1=="rock" and pl2=="scissors") or(pl2=="paper" and pl1=="scissors")or(pl1=="paper" and pl2=="rock"):
+    print("pl1 wins")
+else:
+    print("pl2 wins")

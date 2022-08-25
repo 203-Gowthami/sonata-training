@@ -1,5 +1,5 @@
 class Leave:
-   def _init_(self,Employeeid,Name,LeaveBalance):
+   def __init__(self,Employeeid,Name,LeaveBalance):
         self.employeeid=Employeeid
         self.name=Name
         self.leavebalance=LeaveBalance
